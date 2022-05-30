@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+//for page 1
+@media screen and (max-width:1300px) {
+    .first_page{
+    .all_countries{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        justify-content: space-between;
+    }
+}
+}
+
+
+@media screen and (max-width:950px) {
+    .first_page{
+        .search_filer{
+            display: block;
+            margin: 30px 0;
+            div{
+                margin: 20px 0;
+            }
+        }
+    .all_countries{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: space-between;
+    }
+}
+}
+
+
+@media screen and (max-width:600px) {
+    .first_page{
+        .search_filer{
+            display: block;
+        }
+    .all_countries{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+     
+    }
+}
+}
+
+//for page 1
+
+
+////for page 2
+@media screen and (max-width:1300px) {
+    .second_page{
+        .content{
+            .country_info_flag{
+                display: block;
+                width: 100%;
+                height: fit-content;
+                .flag{
+                    width: 100%;
+                    height: 50%;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .info{
+                    width: 100%;
+                    height: 50%;
+                    padding: 30px 0;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+////for page 2
+
+
+.load_screen{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    display: none;
+}
+
+button{
+    cursor: pointer;
+}
+select{
+    cursor: pointer;
+}
