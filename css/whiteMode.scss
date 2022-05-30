@@ -5,7 +5,7 @@
     font-family: "Nunito Sans", sans-serif;
 }
 body {
-    background-color: rgb(239, 239, 239);
+    background-color: #DEF2f1;
 
 }
 *::-webkit-scrollbar {
@@ -15,7 +15,7 @@ body {
     width: 100vw;
     min-height: 100vh;
     padding: 0 7vw;
-    background-color: rgb(239, 239, 239);
+    background-color: #DEF2f1;
     .search_filer {
         width: 100%;
         height: fit-content;
@@ -74,7 +74,7 @@ background-color: transparent;
     }
     }
     .all_countries {
-        background-color: rgb(239, 239, 239);
+        background-color: #DEF2f1;
 
         display: grid;
         grid-template-columns: repeat(4, auto);
@@ -157,7 +157,7 @@ background-color: transparent;
   
     width: 100vw;
     height: 100vh;
-    background-color: rgb(239, 239, 239);
+    background-color: #DEF2f1;
 
     padding: 0 7vw;
     .content{

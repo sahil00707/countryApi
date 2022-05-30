@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #efefef;
+  background-color: #DEF2f1;
 }
 
 *::-webkit-scrollbar {
@@ -18,7 +18,7 @@ body {
   width: 100vw;
   min-height: 100vh;
   padding: 0 7vw;
-  background-color: #efefef;
+  background-color: #DEF2f1;
 }
 
 .first_page .search_filer {
@@ -123,7 +123,7 @@ body {
 }
 
 .first_page .all_countries {
-  background-color: #efefef;
+  background-color: #DEF2f1;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (auto)[4];
@@ -228,7 +228,7 @@ body {
 .second_page {
   width: 100vw;
   height: 100vh;
-  background-color: #efefef;
+  background-color: #DEF2f1;
   padding: 0 7vw;
 }
 
