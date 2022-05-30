@@ -71,34 +71,34 @@
     <div class="second_page">
         
         <div class="content">
-        <button class="back" id="back" onclick="hideShow()">
-        <img src="icons/arrow-left-white.svg" alt="" class="back_arrow">
-        <p>Back</p>
-        </button>
-        <div class="country_info_flag">
-            <div class="flag">
-                <img src="images/india_flag.png" alt="" class="country_flag">
-            </div>
-            <div class="info">
-                <h3 class="country_name">India</h3> 
-                <div class="info_details">
-                    <div class="details01">
-                           <p><span>Official Name : </span> <span  class="country_official_name">India</span></p>
-                           <p class="second_capital"><span>Capital : </span> <span  class="country_capital">Delhi</span></p>
-                           <p><span>Region : </span> <span  class="country_region">Asia</span></p>
-                           <p class="second_sub_region"><span>Sub Region : </span> <span class="country_sub_region">South Asia</span></p>
-                           <p><span>Car Side : </span> <span class="country_car_side"></span></p>
-                    </div>
-                    <div class="details02">
-                        <p ><span>Population : </span> <span class="country_population">123456</span></p>
-                        <p ><span>Area : </span> <span class="country_area">2345</span></p>
-                        <p ><span>Currency : </span class="country_currency"> rupees</p>
-                        <p ><span>Top Level Domain : </span> <span class="country_tld">.in</span></p>
-                      
-                    </div>
+             <button class="back" id="back" onclick="hideShow()">
+                <img src="icons/arrow-left-white.svg" alt="" class="back_arrow">
+                <p>Back</p>
+             </button>
+           <div class="country_info_flag">
+               <div class="flag">
+                   <img src="images/india_flag.png" alt="" class="country_flag">
                 </div>
-               
-            </div>
+             <div class="info">
+                 <h3 class="country_name">India</h3> 
+                 <div class="info_details">
+                     <div class="details01">
+                            <p><span>Official Name : </span> <span  class="country_official_name">India</span></p>
+                            <p class="second_capital"><span>Capital : </span> <span  class="country_capital">Delhi</span></p>
+                            <p><span>Region : </span> <span  class="country_region">Asia</span></p>
+                            <p class="second_sub_region"><span>Sub Region : </span> <span class="country_sub_region">South Asia</span></p>
+                            <p><span>Car Side : </span> <span class="country_car_side"></span></p>
+                     </div>
+                     <div class="details02">
+                         <p ><span>Population : </span> <span class="country_population">123456</span></p>
+                         <p ><span>Area : </span> <span class="country_area">2345</span></p>
+                         <p ><span>Currency : </span class="country_currency"> rupees</p>
+                         <p ><span>Top Level Domain : </span> <span class="country_tld">.in</span></p>
+                       
+                     </div>
+                 </div>
+                
+             </div>
             
         </div>
        
