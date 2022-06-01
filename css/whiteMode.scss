@@ -5,7 +5,7 @@
     font-family: "Nunito Sans", sans-serif;
 }
 body {
-    background-color: rgb(218, 218, 220);
+    background-color: rgb(243, 243, 243);
 
 }
 *::-webkit-scrollbar {
@@ -15,11 +15,11 @@ body {
     width: 100vw;
     min-height: 100vh;
     padding: 0 7vw;
-    background-color: #DEF2f1;
+    background-color: rgb(243, 243, 243);
     .search_filer {
         width: 100%;
         height: fit-content;
-        background-color: rgb(218, 218, 220);
+        background-color: rgb(243, 243, 243);
         display: flex;
         justify-content: space-between;
         margin: 50px 0;
@@ -74,7 +74,7 @@ background-color: transparent;
     }
     }
     .all_countries {
-        background-color: rgb(218, 218, 220);
+        background-color:rgb(243, 243, 243);;
 
         display: grid;
         grid-template-columns: repeat(4, auto);
@@ -125,7 +125,8 @@ background-color: transparent;
 }
 .title_dark_mode{
     width: 100vw;
-    background-color: rgb(218, 218, 220);
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0 0 3px rgb(204, 204, 204);
     padding: 3vh 7vw;
     display: flex;
     justify-content: space-between;
@@ -157,7 +158,7 @@ background-color: transparent;
   
     width: 100vw;
     height: 100vh;
-    background-color: rgb(218, 218, 220);
+    background-color: rgb(243, 243, 243);
 
     padding: 0 7vw;
     .content{

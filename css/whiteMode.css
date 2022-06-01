@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #dadadc;
+  background-color: #f3f3f3;
 }
 
 *::-webkit-scrollbar {
@@ -18,7 +18,7 @@ body {
   width: 100vw;
   min-height: 100vh;
   padding: 0 7vw;
-  background-color: #DEF2f1;
+  background-color: #f3f3f3;
 }
 
 .first_page .search_filer {
@@ -26,7 +26,7 @@ body {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-color: #dadadc;
+  background-color: #f3f3f3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -119,7 +119,7 @@ body {
 }
 
 .first_page .all_countries {
-  background-color: #dadadc;
+  background-color: #f3f3f3;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (auto)[4];
@@ -180,7 +180,9 @@ body {
 
 .title_dark_mode {
   width: 100vw;
-  background-color: #dadadc;
+  background-color: #f3f3f3;
+  -webkit-box-shadow: 0 0 3px #cccccc;
+          box-shadow: 0 0 3px #cccccc;
   padding: 3vh 7vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -222,7 +224,7 @@ body {
 .second_page {
   width: 100vw;
   height: 100vh;
-  background-color: #dadadc;
+  background-color: #f3f3f3;
   padding: 0 7vw;
 }
 
