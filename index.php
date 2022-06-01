@@ -18,8 +18,8 @@
 
 </head>
 
-<body>
-    
+<body >
+   
     <div class="title_dark_mode">
         <h3>Where in the World ?</h3>
         <button onclick="darkWhiteMode()">

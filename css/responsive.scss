@@ -3,6 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.loading_screen{
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: loadingScreen 2s ;
+    animation-iteration-count: 1;
+    img{
+        width: 60px;
+        height: 60px;
+    }
+}
+@keyframes loadingScreen {
+    0%{
+       
+    }
+    100%{
+       
+    }
+    
+}
 //for page 1
 @media screen and (max-width:1300px) {
     .first_page{

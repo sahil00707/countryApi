@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #DEF2f1;
+  background-color: #dadadc;
 }
 
 *::-webkit-scrollbar {
@@ -26,7 +26,7 @@ body {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-color: #efefef;
+  background-color: #dadadc;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,8 +47,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background-color: white;
-  -webkit-box-shadow: 0 0 5px #dad9d9;
-          box-shadow: 0 0 5px #dad9d9;
   padding: 15px 100px 15px 15px;
   border-radius: 3px;
 }
@@ -89,8 +87,6 @@ body {
   padding: 7px 20px;
   background-color: white;
   border-radius: 5px;
-  -webkit-box-shadow: 0 0 5px #dad9d9;
-          box-shadow: 0 0 5px #dad9d9;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -123,7 +119,7 @@ body {
 }
 
 .first_page .all_countries {
-  background-color: #DEF2f1;
+  background-color: #dadadc;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (auto)[4];
@@ -138,8 +134,6 @@ body {
   height: 290px;
   background-color: white;
   border: none;
-  -webkit-box-shadow: 0 0 5px #dad9d9;
-          box-shadow: 0 0 5px #dad9d9;
   color: black;
   margin: 0 auto;
   margin-bottom: 60px;
@@ -186,7 +180,7 @@ body {
 
 .title_dark_mode {
   width: 100vw;
-  background-color: #e1dfdf;
+  background-color: #dadadc;
   padding: 3vh 7vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -228,7 +222,7 @@ body {
 .second_page {
   width: 100vw;
   height: 100vh;
-  background-color: #DEF2f1;
+  background-color: #dadadc;
   padding: 0 7vw;
 }
 
@@ -236,8 +230,6 @@ body {
   margin: 40px 0;
   padding: 12px 30px 12px 20px;
   color: black;
-  -webkit-box-shadow: 0 0 5px #dad9d9;
-          box-shadow: 0 0 5px #dad9d9;
   border: none;
   background-color: white;
   display: -webkit-box;

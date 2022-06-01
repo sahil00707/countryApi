@@ -1,12 +1,7 @@
 var all_countries=document.querySelector(".all_countries");
 var country=document.querySelector(".country");
-var load_screen=document.querySelector(".load_screen");
 
-function loadingScreen(){
-    load_screen.style.display="block";
-    setTimeout(loadingScreen,3000);
-}
-
+var loading_screen=document.querySelector(".loading_screen");
 
 function cloneCountry(){
     for(var i=0;i<249;i++){
