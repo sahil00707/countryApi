@@ -212,7 +212,7 @@ body {
 }
 
 .first_page .all_countries .country .info p {
-  font-size: 1.0em;
+  font-size: 1em;
   white-space: nowrap;
   overflow-x: scroll;
   overflow-y: hidden;
@@ -222,13 +222,6 @@ body {
 
 .first_page .all_countries .country .info p span:first-child {
   font-weight: bolder;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .second_page {
@@ -324,27 +317,42 @@ body {
   font-weight: bolder;
 }
 
-.second_page .content .borders {
+.second_page .content .country_info_flag .border-bigg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: white;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
-.second_page .content .borders h5 {
-  font-weight: bolder;
+.second_page .content .country_info_flag .border-bigg h3 {
+  color: white;
 }
 
-.second_page .content .borders .border {
-  padding: 9px 30px;
+.second_page .content .country_info_flag .border-bigg .all_borders {
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.second_page .content .country_info_flag .border-bigg .all_borders .border {
+  margin: 10px 20px 10px 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 12px 30px 12px 20px;
   color: white;
+  -webkit-box-shadow: 0 0 8px #091a2f;
+          box-shadow: 0 0 8px #091a2f;
+  border: none;
   background-color: #202c37;
-  -webkit-box-shadow: 0 0 6px #0b1b2d;
-          box-shadow: 0 0 6px #0b1b2d;
-  margin: 0 10px;
 }
 /*# sourceMappingURL=style.css.map */

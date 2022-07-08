@@ -5,21 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <title>Home Page</title>
     <link rel="stylesheet" href="css/style.css" class="style">
     <link rel="stylesheet" href="css/responsive.css" class="style">
-    <!-- <link rel="stylesheet" href="css/whiteMode.css" class="style"> -->
-    <!-- <link rel="stylesheet" href="countryInfo.css"> -->
+    <link rel="icon" href="icons/info.png">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link
         href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Maven+Pro&family=Nunito+Sans:wght@200&family=Red+Hat+Mono:wght@300&family=Ubuntu:wght@300&display=swap"
         rel="stylesheet">
-
 </head>
+<body  >
 
-<body >
-   
     <div class="title_dark_mode">
         <h3>Where in the World ?</h3>
         <button onclick="darkWhiteMode()">
@@ -93,15 +89,20 @@
                          <p ><span>Population : </span> <span class="country_population">123456</span></p>
                          <p ><span>Area : </span> <span class="country_area">2345</span></p>
                          <p ><span>Currency : </span class="country_currency"> rupees</p>
-                         <p ><span>Top Level Domain : </span> <span class="country_tld">.in</span></p>
-                       
+                         <p ><span>Top Level Domain : </span> <span class="country_tld">.in</span></p>             
                      </div>
                  </div>
+                 <div class="borderbigg">
+            <h4> Borders :</h4>
+       <div class="all_borders">
+    
+       </div>
+        </div>
                 
              </div>
             
         </div>
-       
+     
         </div>
     </div>
 

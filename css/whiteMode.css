@@ -166,7 +166,7 @@ body {
 }
 
 .first_page .all_countries .country .info p {
-  font-size: 1.0em;
+  font-size: 1em;
   white-space: nowrap;
   overflow-x: scroll;
   overflow-y: hidden;
@@ -223,7 +223,9 @@ body {
 
 .second_page {
   width: 100vw;
-  height: 100vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   background-color: #f3f3f3;
   padding: 0 7vw;
 }
@@ -305,27 +307,42 @@ body {
   font-weight: bolder;
 }
 
-.second_page .content .borders {
+.second_page .content .country_info_flag .border-bigg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: black;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
-.second_page .content .borders h4 {
-  font-weight: bolder;
+.second_page .content .country_info_flag .border-bigg h3 {
+  color: black;
 }
 
-.second_page .content .borders .border {
-  padding: 9px 30px;
+.second_page .content .country_info_flag .border-bigg .all_borders {
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.second_page .content .country_info_flag .border-bigg .all_borders .border {
+  margin: 10px 20px 10px 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 12px 30px 12px 20px;
   color: black;
+  -webkit-box-shadow: 0 0 8px #091a2f;
+          box-shadow: 0 0 8px #091a2f;
+  border: none;
   background-color: white;
-  -webkit-box-shadow: 0 0 5px #dad9d9;
-          box-shadow: 0 0 5px #dad9d9;
-  margin: 0 10px;
 }
 /*# sourceMappingURL=whiteMode.css.map */
